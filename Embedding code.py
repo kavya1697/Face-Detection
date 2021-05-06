@@ -50,3 +50,6 @@ for i in range(5):
             print("Program ended.")
             cv2.destroyAllWindows()
             break
+f=open("ref_embed.pkl","wb")
+pickle.dump(embed_dictt,f)
+f.close()
