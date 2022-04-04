@@ -1,5 +1,6 @@
 import sys
 import cv2 
+import csv
 import face_recognition
 import pickle
 name=input("enter name")
